@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Height, Width, Borders and Backgrounds</title>
-<style>
-#firstpara
-{
-    color:black;
-    background: rgb(243, 15, 15);
-    height: 100px;
-    width: 500px;;
-    border-width: 5px;
-    border-color: green;
-    border-style: solid;
-    border-radius: 10px;
-}
-</style>
 </head>
+<style>
+    #firstpara {
+        background-color: brown;
+        height: 50px;
+        width: 500px;
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+
+    }
+
+    #secondpara {
+        background-color: rgb(17, 202, 88);
+        height: 50px;
+        width: 500px;
+        border-top: 2px solid rgb(233, 24, 222);
+        border-right: 2px solid rgb(212, 16, 91);
+        border-left: 2px solid rgb(18, 29, 179);
+        border-bottom: 2px solid rgb(13, 117, 112);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    #thridpara {
+        background-image: url("Sal.jpg");
+        height: 50px;
+        width: 500px;
+        background-repeat: no-repeat;
+        /*repeat-x and repeat-y will make it repeat on x and y axis*/
+        /* background: position center center  */
+        /* background-position: center top; */
+        background-position: right;
+        /* background-position: center left; */
+
+    }
+</style>
 
 <body>
-    <h1>This is Heading</h1>
-    <p id="firstpara">This is a Paragraph</p>
-    <p id="secondpara">This is a Paragraph</p>
+    <h3>This is Intorudction of Height, Width, Borders and Backgrounds</h3>
+    <h2>This Is My First Para</h2>
+    <p id="firstpara">This is my first Paragarph</p>
+    <h2>This Is My Second Para</h2>
+    <p id="secondpara">This is my Second Paragarph</p>
+    <h2>This Is My Thrid Para</h2>
+    <p id="thridpara">This is my Thrid Paragarph</p>
+
 </body>
+
 </html>
