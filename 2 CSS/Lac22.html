@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo selectors & more designing</title>
+    <style>
+        .container {
+            border: 2px solid rgb(36, 33, 231);
+            background-color: rgb(231, 15, 148);
+            padding: 30px;
+            margin: 30px auto;
+            width: 700px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(173, 231, 12);
+        }
+
+        a:hover {
+            color: rgb(5, 0, 0);
+            background-color: rgb(221, 166, 38);
+        }
+
+        a:visited {
+            background-color: yellow;
+        }
+
+        a:active {
+            background-color: darkblue;
+        }
+
+        .btn {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color: crimson;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            color: darkgoldenrod;
+            background-color: rgb(223, 245, 201);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>Pseudo selectors & more designing</h3>
+        <p>The current source code release is version 2.39.0. If you want the newer version, you can build it from the
+            source code.</p>
+        <a href="https://facebook.com" class="btn">Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+
+</html>
